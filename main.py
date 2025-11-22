@@ -52,7 +52,7 @@ def criar_usuario(usuarios):
     
     # COLETA E FORMATAÇÃO DO ENDEREÇO.
     # Endereço é o campo mais flexível, vamos apenas garantir o Title Case.
-    endereco = input("Informe o endereço (logradouro, nro - bairro - cidade/sigla estado): ").title()
+    endereco = input("Informe o endereço (logradouro, numero - bairro - cidade/sigla estado): ").title()
 
     # ARMAZENAMENTO.
     usuarios.append({
