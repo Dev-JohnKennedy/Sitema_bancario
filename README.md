@@ -7,28 +7,28 @@ O sistema oferece as seguintes operações básicas:
 1. Operações de Transação
 Depósito ([d]): Permite depositar valores positivos.
 
-Saque ([s]):
+  Saque ([s]):
 
-Limitado a 3 saques diários.
+  Limitado a 3 saques diários.
 
-Limitado a R$ 500,00 por saque.
+  Limitado a R$ 500,00 por saque.
 
-Requer saldo suficiente.
+  Requer saldo suficiente.
 
-Extrato ([e]): Exibe todas as movimentações e o saldo atual.
+  Extrato ([e]): Exibe todas as movimentações e o saldo atual.
 
 2. Gerenciamento de Clientes e Contas
 Novo Usuário ([nu]): Cadastra um cliente (pessoa física).
 
-Validação de CPF: Deve ter exatamente 11 dígitos numéricos e ser único no sistema.
+  Validação de CPF: Deve ter exatamente 11 dígitos numéricos e ser único no sistema.
 
-Validação de Nome: Deve conter apenas letras.
+  Validação de Nome: Deve conter apenas letras.
 
-Formatação de Dados: Nome, data de nascimento e endereço são formatados automaticamente.
+  Formatação de Dados: Nome, data de nascimento e endereço são formatados automaticamente.
 
-Nova Conta Corrente ([nc]): Abre uma conta e a vincula a um usuário existente através do CPF.
+  Nova Conta Corrente ([nc]): Abre uma conta e a vincula a um usuário existente através do CPF.
 
-Agência Fixa: 0001
+  Agência Fixa: 0001
 
 Número da Conta: Sequencial (inicia em 1).
 
