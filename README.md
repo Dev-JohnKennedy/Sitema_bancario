@@ -74,3 +74,32 @@ criar_conta_corrente(agencia, numero_conta, usuarios)
 
 
 A conta só é criada se o CPF informado existir no sistema.
+
+💰 Depósito
+depositar(saldo, valor, extrato, /)
+
+
+Usa parâmetros posicionais-only.
+
+💵 Saque
+sacar(*, saldo, valor, extrato, limite, numero_saques, limite_saques)
+
+
+Usa parâmetros nomeados-only e aplica validações.
+
+📄 Extrato
+exibir_extrato(saldo, /, *, extrato)
+
+🖥️ Menu Principal
+
+O sistema é totalmente interativo via terminal, com o menu:
+
+==================== MENU ====================
+[d]  Depositar
+[s]  Sacar
+[e]  Extrato
+[nu] Novo Usuário
+[nc] Nova Conta
+[lc] Listar Contas
+[q]  Sair
+==============================================
